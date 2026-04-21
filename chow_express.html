@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chow Express Nigeria – Best Food Vendor in Lagos. Authentic Nigerian meals, freshly made and delivered to your door."
+    />
+    <title>Chow Express Nigeria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+      <div class="pre-logo">🍲 Chow Express</div>
+      <!-- <div class="pre-sub">Best Food Vendor in Lagos</div> -->
+      <div class="pre-bar"><div class="pre-fill"></div></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <img
+        src="/img/chowfood/personal/logo.jpg"
+        alt="icon"
+        style="width: 40px; vertical-align: middle; border-radius: 15px"
+      />
+      <a href="#home" class="nav-logo">Chow Express </a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#aspirations">Aspirations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://wa.me/2349119509083" target="_blank" class="nav-cta"
+            >Order Now ↗</a
+          >
+        </li>
+      </ul>
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU — fixed overlay, opens via max-height toggle -->
+    <div
+      class="mobile-menu"
+      id="mobileMenu"
+      role="navigation"
+      aria-label="Mobile navigation"
+    >
+      <a href="#home">Home</a>
+      <a href="#aspirations">Aspirations</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/2349119509083" target="_blank" class="mob-cta">
+        <i class="fab fa-whatsapp"></i> &nbsp;Order on WhatsApp
+      </a>
+    </div>
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <div>
+          <div class="hero-badge">Est. 2019 &bull; Sangotedo, Lagos</div>
+          <h1 class="hero-title">
+            Authentic Nigerian <em>Flavours, Delivered</em> Fresh to Your Door.
+          </h1>
+          <p class="hero-sub">
+            From Seafood Okro to Efo Riro — Chef Anne brings the richness of
+            Nigerian cuisine right to your table. No kitchen stress. Just pure,
+            freshly made goodness.
+          </p>
+          <div class="hero-btns">
+            <a
+              href="https://wa.me/2349119509083"
+              target="_blank"
+              class="btn-pri"
+              ><i class="fab fa-whatsapp"></i> Order on WhatsApp</a
+            >
+            <a href="#menu-preview" class="btn-out"
+              ><i class="fas fa-utensils"></i> View Our Menu</a
+            >
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <i class="fas fa-star"></i> Top-Rated in Lagos
+            </div>
+            <div class="trust-item">
+              <i class="fas fa-bolt"></i> Fast Delivery
+            </div>
+            <div class="trust-item">
+              <i class="fas fa-fire-alt"></i> Made Fresh Daily
+            </div>
+            <div class="trust-item">
+              <i class="fas fa-heart"></i> 500+ Customers
+            </div>
+          </div>
+        </div>
+        <div class="hero-img-area">
+          <div class="hero-ring"></div>
+          <div class="hero-frame">
+            <div class="hero-slide active s1">
+              <img
+                src="/img/chowfood/personal/owner.jpg"
+                alt="owner.jpg"
+                style="
+                  border-radius: 10px;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                "
+              />
+              <div class="s-lbl">Maryann Achime — Founder</div>
+            </div>
+            <div class="hero-slide s2">
+              <img
+                src="/img/chowfood/personal/owner1.jpg"
+                alt="owner1.jpg"
+                style="
+                  border-radius: 10px;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                "
+              />
+              <div class="s-lbl">Maryann Achime — Founder</div>
+            </div>
+            <div class="hero-slide s3">
+              <img
+                src="/img/chowfood/personal/owner2.jpg"
+                alt="owner2.jpg"
+                style="
+                  border-radius: 10px;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                "
+              />
+              <div class="s-lbl">Maryann Achime — Founder</div>
+            </div>
+          </div>
+          <div class="hero-dots-row">
+            <button class="hdot active" onclick="goHero(0)"></button>
+            <button class="hdot" onclick="goHero(1)"></button>
+            <button class="hdot" onclick="goHero(2)"></button>
+            <button class="hdot" onclick="goHero(3)"></button>
+          </div>
+          <div class="fc1">
+            <div class="fc-lbl">Customer Rating</div>
+            <div class="fc-val">5.0 / 5.0</div>
+            <div class="fc-stars">★★★★★</div>
+          </div>
+          <div class="fc2">
+            <div class="fc-lbl">Delivery</div>
+            <div class="fc-val">Same Day 🚀</div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <div class="s-mouse"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats-strip">
+      <div class="stats-grid">
+        <div class="stat-item rv">
+          <div class="stat-num">500+</div>
+          <div class="stat-lbl">Happy Customers</div>
+        </div>
+        <div class="stat-item rv" style="transition-delay: 0.1s">
+          <div class="stat-num">5+ Yrs</div>
+          <div class="stat-lbl">of Excellence</div>
+        </div>
+        <div class="stat-item rv" style="transition-delay: 0.2s">
+          <div class="stat-num">20+</div>
+          <div class="stat-lbl">Signature Dishes</div>
+        </div>
+        <div class="stat-item rv" style="transition-delay: 0.3s">
+          <div class="stat-num">100%</div>
+          <div class="stat-lbl">Freshly Made</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ASPIRATIONS -->
+    <section id="aspirations">
+      <div class="sec">
+        <div class="asp-2col">
+          <div class="rvl">
+            <div class="tag">Our Vision</div>
+            <h2 class="sh">Our <em>Aspirations</em> &amp; Vision</h2>
+            <div class="divider"></div>
+            <p
+              style="
+                font-size: 0.92rem;
+                line-height: 1.8;
+                color: var(--ivory);
+                margin-bottom: 1.5rem;
+              "
+            >
+              At Chow Express Nigeria, we believe food is more than nourishment
+              — it's culture, love, and community. Every dish we make carries
+              the promise of authentic Nigerian taste and the warmth of home.
+            </p>
+            <div class="asp-quote">
+              <div class="qmark">"</div>
+              <div class="qtxt">
+                More than food — a movement of flavour, culture, and community
+                across Lagos and beyond.
+              </div>
+              <div class="qauthor">
+                — Chef Anne, Founder · Chow Express Nigeria
+              </div>
+            </div>
+          </div>
+          <div class="asp-cards rvr">
+            <div class="acard">
+              <div class="anum">01</div>
+              <div class="aico">🍲</div>
+              <h3>Nourish Every Home</h3>
+              <p>
+                Making authentic, freshly prepared Nigerian meals accessible to
+                every Lagos household without the stress of cooking.
+              </p>
+            </div>
+            <div class="acard">
+              <div class="anum">02</div>
+              <div class="aico">🚀</div>
+              <h3>Redefine Delivery</h3>
+              <p>
+                Setting the gold standard for food delivery in Lagos — fast,
+                reliable, and always hot when it arrives at your door.
+              </p>
+            </div>
+            <div class="acard">
+              <div class="anum">03</div>
+              <div class="aico">🌍</div>
+              <h3>Celebrate Culture</h3>
+              <p>
+                Putting traditional Nigerian cuisine on the global map as a
+                gourmet experience worthy of the world stage.
+              </p>
+            </div>
+            <div class="acard">
+              <div class="anum">04</div>
+              <div class="aico">💛</div>
+              <h3>Build Community</h3>
+              <p>
+                Growing a loyal community that celebrates food, sharing, and the
+                joy of real home-cooked Nigerian flavour.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="sec">
+        <div style="text-align: center; margin-bottom: 3rem" class="rv">
+          <div class="tag">What We Offer</div>
+          <h2 class="sh">Our <em>Services</em></h2>
+          <div class="ssub">
+            From intimate birthdays to grand weddings — excellence on every
+            occasion.
+          </div>
+          <div class="divider center"></div>
+        </div>
+        <div class="svc-grid">
+          <div class="svc-card rv" style="transition-delay: 0s">
+            <span class="sico">🥘</span>
+            <div class="stitle">Food Bowls &amp; Native Dishes</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              Signature freshly made food bowls including Seafood Okro, Efo
+              Riro, Fisherman Soup, and more — portioned and packed for doorstep
+              delivery.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >Order Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="svc-card rv" style="transition-delay: 0.1s">
+            <span class="sico">🎉</span>
+            <div class="stitle">Event Catering</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              Full-scale catering for birthdays, weddings, corporate events, and
+              celebrations across Lagos. We handle the food so you enjoy the
+              moment.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >Book Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="svc-card rv" style="transition-delay: 0.2s">
+            <span class="sico">🐟</span>
+            <div class="stitle">Seafood Specialties</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              Premium fresh seafood dishes including Seafood Okra, Fisherman
+              Soup, and Assorted Cowleg Soup — made to order with the finest
+              ingredients.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >Order Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="svc-card rv" style="transition-delay: 0.3s">
+            <span class="sico">🚚</span>
+            <div class="stitle">Home Delivery</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              Same-day and scheduled delivery across Lagos. Stay updated in real
+              time via WhatsApp notifications from order placement to your
+              doorstep.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >Schedule Now <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="svc-card rv" style="transition-delay: 0.4s">
+            <span class="sico">🍌</span>
+            <div class="stitle">Soup &amp; Stew Menu</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              A rotating weekly menu of Nigerian soups and stews — Efo Riro,
+              Bitterleaf, Egusi, Ogbono, and Plantain Porridge, freshly prepared
+              every day.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >See Menu <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="svc-card rv" style="transition-delay: 0.5s">
+            <span class="sico">📦</span>
+            <div class="stitle">Bulk &amp; Corporate Orders</div>
+            <div class="sacc"></div>
+            <p class="sdesc">
+              Specially managed bulk orders for offices, schools, and large
+              gatherings with guaranteed freshness, timely delivery, and premium
+              presentation.
+            </p>
+            <a href="https://wa.me/2349119509083" target="_blank" class="slink"
+              >Get Quote <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="sec">
+        <div style="text-align: center; margin-bottom: 2.5rem" class="rv">
+          <div class="tag">Visual Feast</div>
+          <h2 class="sh">A Taste <em>Through Our Lens</em></h2>
+          <div class="ssub">Every dish tells a story.</div>
+          <div class="divider center"></div>
+        </div>
+        <div class="g-carousel rv">
+          <div class="g-track" id="gTrack">
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #1a3d10, #0a2006)"
+              >
+                <img
+                  src="/img/chowfood/menu/food1.jpg"
+                  alt="food1.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Moi Moi</div>
+                  <div class="gddesc">Well-made and Tasty</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d2010, #200808)"
+              >
+                <img
+                  src="/img/chowfood/menu/food2jpg.jpg"
+                  alt="food2.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Efo Riro</div>
+                  <div class="gddesc">Rich spinach stew</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #0a1e3d, #060f20)"
+              >
+                <img
+                  src="/img/chowfood/menu/food3.jpg"
+                  alt="food3.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Banga Soup</div>
+                  <div class="gddesc">Bold and Delicious</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d0a10, #200508)"
+              >
+                <img
+                  src="/img/chowfood/menu/food4.jpg"
+                  alt="food4.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Assorted Cassava</div>
+                  <div class="gddesc">Deep spiced and Tasty</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d3010, #201808)"
+              >
+                <img
+                  src="/img/chowfood/menu/food5.jpg"
+                  alt="food5.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Afang Soup</div>
+                  <div class="gddesc">Sweet comfort food</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d2a10, #201508)"
+              >
+                <img
+                  src="/img/chowfood/menu/food6.jpg"
+                  alt="food6.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Vegetable Soup</div>
+                  <div class="gddesc">Tasty and Rich</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #1a3d10, #0a2006)"
+              >
+                <img
+                  src="/img/chowfood/menu/unnamed.jpg"
+                  alt="food7.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Egusi Soup</div>
+                  <div class="gddesc">Rich palm oil base</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d1010, #200505)"
+              >
+                <img
+                  src="/img/chowfood/menu/okro(1).jpg"
+                  alt="okro(1).jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Okro Soup</div>
+                  <div class="gddesc">Aromatic and bold</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d1010, #200505)"
+              >
+                <img
+                  src="/img/chowfood/menu/stew.jpg"
+                  alt="stew.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Stew</div>
+                  <div class="gddesc">Well-made and Elegant</div>
+                </div>
+              </div>
+            </div>
+            <div class="gcard">
+              <div
+                class="gimg"
+                style="background: linear-gradient(135deg, #3d1010, #200505)"
+              >
+                <img
+                  src="/img/chowfood/menu/food10.jpg"
+                  alt="stew.jpg"
+                  style="height: 100%; width: 100%; object-fit: cover"
+                />
+                <div class="goverlay">
+                  <div class="gdname">Many More</div>
+                  <div class="gddesc">Order and Tell your story</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-controls rv">
+          <button class="gbtn" id="gPrev">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="gdots" id="gDots"></div>
+          <button class="gbtn" id="gNext">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="sec">
+        <div style="text-align: center; margin-bottom: 3rem" class="rv">
+          <div class="tag">Real Reviews</div>
+          <h2 class="sh">What Our <em>Customers Say</em></h2>
+          <div class="ssub">Words from the people who matter most.</div>
+        </div>
+        <div class="tgrid">
+          <div class="tcard rv" style="transition-delay: 0s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "Food is awesome, customer service is top notch. I highly
+              recommend these guys for anything food — birthdays, weddings,
+              whatever occasion. You're sure to get value for your money 100%"
+            </p>
+            <div class="tauth">
+              <img src="/img/chowfood/review/james.png" alt="james.png" />
+              <div>
+                <div class="tname">James Ajibade</div>
+                <div class="twhen">Verified Customer</div>
+              </div>
+            </div>
+          </div>
+          <div class="tcard rv" style="transition-delay: 0.15s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "First time user here. Do yourself a favor and visit this lovely
+              food vendor. Their delivery process is fast and always keeps you
+              up to date. I highly recommend Chow Express!"
+            </p>
+            <div class="tauth">
+              <img
+                src="/img/chowfood/review/chiamhembe.png"
+                alt="chiamhembe.png"
+              />
+              <div>
+                <div class="tname">Chiahemba Solomon</div>
+                <div class="twhen">Verified Customer</div>
+              </div>
+            </div>
+          </div>
+          <div class="tcard rv" style="transition-delay: 0.3s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "Her meals are fire, especially the soups 😋😋. I've never had
+              such rich, authentic Nigerian flavours delivered right to my door.
+              Chef Anne is truly gifted!"
+            </p>
+            <div class="tauth">
+              <img
+                src="/img/chowfood/review/anothonia.png"
+                alt="anthonia.png"
+              />
+              <div>
+                <div class="tname">Anthonia Akingbehin</div>
+                <div class="twhen">Verified Customer</div>
+              </div>
+            </div>
+          </div>
+          <div class="tcard rv" style="transition-delay: 0.45s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "They are the best! 😋👌 Incredible flavour, generous portions,
+              and packaging is always neat and professional. Chow Express has
+              become my go-to food vendor in Lagos!"
+            </p>
+            <div class="tauth">
+              <img src="/img/chowfood/review/swank.png" alt="swank.png" />
+              <div>
+                <div class="tname">Njoku Oluebubechukwu</div>
+                <div class="twhen">Verified Customer</div>
+              </div>
+            </div>
+          </div>
+          <div class="tcard rv" style="transition-delay: 0.6s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "Ordered for my daughter's birthday and every guest kept asking
+              where the food was from. The Jollof rice and pepper soup were
+              absolutely outstanding. Thank you Chef Anne!"
+            </p>
+            <div class="tauth">
+              <div class="tav">BO</div>
+              <div>
+                <div class="tname">Blessing Okonkwo</div>
+                <div class="twhen">Event Customer</div>
+              </div>
+            </div>
+          </div>
+          <div class="tcard rv" style="transition-delay: 0.75s">
+            <span class="tqico"><i class="fas fa-quote-left"></i></span>
+            <div class="tstars">★★★★★</div>
+            <p class="ttxt">
+              "The seafood okro bowl is everything! I've tried many vendors in
+              Lagos and Chow Express is on another level. Fresh ingredients,
+              perfect seasoning, fast delivery — a 10/10 every time."
+            </p>
+            <div class="tauth">
+              <div class="tav">TA</div>
+              <div>
+                <div class="tname">Tunde Adeyemi</div>
+                <div class="twhen">Regular Customer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="sec">
+        <div class="about-grid">
+          <div class="rvl">
+            <div class="tag">Meet Chef Anne</div>
+            <h2 class="sh">The Heart Behind <em>Every Meal.</em></h2>
+            <div class="divider"></div>
+            <p class="about-para">
+              Chow Express Nigeria, known as
+              <strong style="color: var(--gold)">@chow_express_lagos_</strong>
+              on Instagram, is a proudly Lagos-based food brand founded in 2019
+              by Maryann Achime — lovingly known as Chef Anne. Born from a
+              passion for authentic Nigerian cuisine and a mission to eliminate
+              kitchen stress, Chow Express has grown into one of Lagos's most
+              trusted food vendors.
+            </p>
+            <p class="about-para">
+              Operating from the heart of Sangotedo, Ajah, Chef Anne and her
+              team specialise in freshly made Nigerian meals — cooked from
+              scratch, seasoned to perfection, and delivered straight to your
+              door. From the rich depth of Seafood Okra to the bold flavours of
+              Fisherman Soup, every dish carries the warmth of a home-cooked
+              meal.
+            </p>
+            <p class="about-para">
+              With a "freshly made-from-scratch" philosophy, Chow Express serves
+              not just food but an experience — offering food bowls, event
+              catering, and bulk orders for birthdays, weddings, and corporate
+              gatherings across Lagos.
+            </p>
+            <div class="chips">
+              <span class="chip"
+                ><i class="fas fa-map-marker-alt"></i> Sangotedo, Ajah,
+                Lagos</span
+              >
+              <span class="chip"
+                ><i class="fas fa-clock"></i> Open Daily · Closes 7 PM</span
+              >
+              <span class="chip"
+                ><i class="fas fa-fire-alt"></i> Made From Scratch</span
+              >
+              <span class="chip"><i class="fas fa-star"></i> Est. 2019</span>
+            </div>
+            <a
+              href="https://wa.me/2349119509083"
+              target="_blank"
+              class="btn-pri"
+              style="margin-top: 1rem"
+              ><i class="fab fa-whatsapp"></i> Chat With Us Now</a
+            >
+          </div>
+          <div class="about-img-wrap rvr">
+            <div class="a-ring"></div>
+            <div class="about-frame">
+              <img
+                src="/img/chowfood/personal/owner.jpg"
+                alt="owner.jpg"
+                style="width: 100%; height: 100%; object-fit: cover"
+              />
+              <div class="about-lbl">
+                <div class="chef-name">Maryann Achime</div>
+                <div class="chef-title">
+                  Founder &amp; Executive Chef — Chow Express,Lagos Nigeria
+                </div>
+              </div>
+            </div>
+            <div class="a-badge">
+              <div class="a-badge-num">5+</div>
+              <div class="a-badge-txt">Years of Excellence</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="sec">
+        <div class="contact-grid">
+          <div class="rvl">
+            <div class="tag">Get In Touch</div>
+            <h2 class="sh">Let's <em>Connect</em></h2>
+            <div class="ssub">Ready to order or plan your next event?</div>
+            <div class="divider"></div>
+            <div class="citem">
+              <div class="cico"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="clbl">Location</div>
+                <div class="cval">
+                  <a
+                    href="https://maps.google.com/?q=No+9+Church+Street+Treasure+Estate+Sangotedo+Lagos"
+                    target="_blank"
+                    >No 9 Church Street, Treasure Estate,<br />Sangotedo, Lagos
+                    100001</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="citem">
+              <div class="cico"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <div class="clbl">Phone</div>
+                <div class="cval">
+                  <a href="tel:+2349119509083">0911 950 9083</a><br /><a
+                    href="tel:+2348182529914"
+                    >0818 252 9914</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="citem">
+              <div class="cico"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <div class="clbl">WhatsApp</div>
+                <div class="cval">
+                  <a href="https://wa.me/2349119509083" target="_blank"
+                    >0911 950 9083 — Tap to Chat →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="citem">
+              <div class="cico"><i class="fas fa-clock"></i></div>
+              <div>
+                <div class="clbl">Hours</div>
+                <div class="cval">Open Daily · Closes 7 PM</div>
+              </div>
+            </div>
+            <div class="citem">
+              <div class="cico"><i class="fas fa-location-dot"></i></div>
+              <div>
+                <div class="clbl">Google Plus Code</div>
+                <div class="cval">FJFH+CM Lekki</div>
+              </div>
+            </div>
+            <div style="margin-top: 1rem">
+              <div class="clbl" style="margin-bottom: 0.7rem">Follow Us</div>
+              <div class="socials">
+                <a
+                  href="https://www.instagram.com/chow_express_lagos_/"
+                  target="_blank"
+                  class="soc ig"
+                  title="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.threads.com/@chow_express_lagos_"
+                  target="_blank"
+                  class="soc th"
+                  title="Threads"
+                  ><i class="fab fa-threads"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/p/chow_express_lagos_-100065401962547/"
+                  target="_blank"
+                  class="soc fb"
+                  title="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://wa.me/2349119509083"
+                  target="_blank"
+                  class="soc wa"
+                  title="WhatsApp"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="form-box rvr">
+            <div class="form-title">Send Us a Message</div>
+            <div class="form-sub">
+              We'll get back to you via WhatsApp within the hour.
+            </div>
+            <div id="cForm">
+              <div class="frow">
+                <div class="fg">
+                  <label class="flbl">Your Name</label
+                  ><input
+                    type="text"
+                    class="fi"
+                    id="fName"
+                    placeholder="e.g. Amaka Okonkwo"
+                  />
+                </div>
+                <div class="fg">
+                  <label class="flbl">Phone / WhatsApp</label
+                  ><input type="tel" class="fi" placeholder="08XXXXXXXXX" />
+                </div>
+              </div>
+              <div class="fg">
+                <label class="flbl">Email Address</label
+                ><input type="email" class="fi" placeholder="you@example.com" />
+              </div>
+              <div class="fg">
+                <label class="flbl">Type of Request</label
+                ><select class="fsel">
+                  <option value="">Select request type...</option>
+                  <option>Personal Food Order</option>
+                  <option>Birthday Catering</option>
+                  <option>Wedding Catering</option>
+                  <option>Corporate Order</option>
+                  <option>Bulk Order</option>
+                  <option>Other Enquiry</option>
+                </select>
+              </div>
+              <div class="fg">
+                <label class="flbl">Message</label
+                ><textarea
+                  class="fta"
+                  placeholder="Tell us what you'd like to order or how we can help..."
+                ></textarea>
+              </div>
+              <button class="fsub" onclick="submitForm()">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </div>
+            <div class="f-ok" id="fOk">
+              <div class="f-ok-icon">🎉</div>
+              <div class="f-ok-msg">Message Sent Successfully!</div>
+              <div class="f-ok-sub">
+                We'll reach out via WhatsApp shortly. Thank you!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION STRIP -->
+    <div class="loc-strip">
+      <div class="loc-inner">
+        <div class="hours-badge">
+          <div class="live-dot"></div>
+          <span
+            ><strong style="color: var(--cream)">Open Now</strong> — Closes at 7
+            PM</span
+          >
+        </div>
+        <div class="loc-addr">
+          📍 No 9 Church Street, Treasure Estate, Sangotedo, Lagos 100001
+        </div>
+        <a
+          href="https://maps.google.com/?q=No+9+Church+Street+Treasure+Estate+Sangotedo+Lagos"
+          target="_blank"
+          class="loc-btn"
+          ><i class="fas fa-map-marker-alt"></i> Get Directions</a
+        >
+        <a href="tel:+2349119509083, +2348182529914" class="loc-btn saf"
+          ><i class="fas fa-phone-alt"></i> Call Us</a
+        >
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <span class="f-logo">🍲 Chow Express</span>
+          <div class="f-tag">Best Food Vendor in Lagos</div>
+          <p class="f-desc">
+            Authentic Nigerian meals made fresh from scratch and delivered to
+            your door. No kitchen stress — just pure, home-cooked goodness from
+            Chef Anne's kitchen.
+          </p>
+          <div class="f-soc">
+            <a
+              href="https://www.instagram.com/chow_express_lagos_/"
+              target="_blank"
+              class="fsoc ig"
+              title="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.threads.com/@chow_express_lagos_"
+              target="_blank"
+              class="fsoc th"
+              title="Threads"
+              ><i class="fab fa-threads"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/p/chow_express_lagos_-100065401962547/"
+              target="_blank"
+              class="fsoc fb"
+              title="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://wa.me/2349119509083"
+              target="_blank"
+              class="fsoc wa"
+              title="WhatsApp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <div class="f-col-title">Quick Links</div>
+          <ul class="f-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aspirations">Our Aspirations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu-preview">Our Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About Chef Anne</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="f-col-title">Our Dishes</div>
+          <ul class="f-links">
+            <li><a href="#menu-preview">Seafood Okro Bowl</a></li>
+            <li><a href="#menu-preview">Efo Riro</a></li>
+            <li><a href="#menu-preview">Fisherman Soup</a></li>
+            <li><a href="#menu-preview">Assorted Cowleg Soup</a></li>
+            <li><a href="#menu-preview">Plantain Porridge</a></li>
+            <li><a href="#menu-preview">Party Jollof Rice</a></li>
+            <li><a href="#menu-preview">Egusi Soup</a></li>
+            <div class="f-ci">
+              <i class="fa fa-utensils"></i><span>And Many More</span>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <div class="f-col-title">Contact Info</div>
+          <div class="f-ci">
+            <i class="fas fa-map-marker-alt"></i
+            ><span
+              >No 9 Church Street, Treasure Estate, Sangotedo, Lagos
+              100001</span
+            >
+          </div>
+          <div class="f-ci">
+            <i class="fas fa-phone-alt"></i
+            ><span
+              ><a href="tel:+2349119509083">0911 950 9083</a><br /><a
+                href="tel:+2348182529914"
+                >0818 252 9914</a
+              ></span
+            >
+          </div>
+          <div class="f-ci">
+            <i class="fab fa-whatsapp"></i
+            ><span
+              ><a href="https://wa.me/2349119509083" target="_blank"
+                >Chat on WhatsApp</a
+              ></span
+            >
+          </div>
+          <div class="f-ci">
+            <i class="fas fa-clock"></i><span>Open Daily · Closes 7 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="f-bottom">
+        <div class="f-copy">
+          © 2025 <a href="#home">Chow Express Nigeria</a>. All rights reserved.
+          | Built by Conano
+        </div>
+        <div class="f-bl">
+          <a href="#">Privacy Policy</a><a href="#">Terms of Service</a
+          ><a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FAB -->
+    <a
+      href="https://wa.me/2349119509083"
+      target="_blank"
+      class="wfab"
+      title="Order on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="wfab-lbl">Order on WhatsApp</span>
+    </a>
+    <a href="#home" class="btt" id="btt"><i class="fas fa-chevron-up"></i></a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
